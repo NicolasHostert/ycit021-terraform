@@ -7,8 +7,3 @@ variable "gcp_project_id" {
   type        = string
   description = "GCP project ID"
 }
-
-variable "gke_pool_machine_type" {
-  type        = string
-  description = "Machine type requested"
-}
