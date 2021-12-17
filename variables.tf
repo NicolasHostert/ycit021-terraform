@@ -9,6 +9,6 @@ variable "gcp_project_id" {
 }
 
 variable "gke_pool_machine_type" {
-  type = string
+  type    = string
   default = "e2-medium"
 }
